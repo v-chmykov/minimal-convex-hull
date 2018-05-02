@@ -1,0 +1,12 @@
+{
+  "name": "minimal-convex-hull",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "parcel": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "Vladimir Chmykov",
+  "license": "ISC"
+}
