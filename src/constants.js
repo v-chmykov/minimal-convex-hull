@@ -1,14 +1,10 @@
-export default {
-  NUMBER_OF_POINT: 10,
-  CANVAS_HEIGHT: 500,
-  CANVAS_WIDTH: 500,
-  SECURE_BORDER: 20,
-  ORIGIN_DOT_COLOR: 'blue',
-  ORIGIN_DOT_SIZE: 3,
-  POLY_DOT_COLOR: 'red',
-  POLY_DOT_SIZE: 5,
-  LEGEND_POSITION: { 
-    x: 5, 
-    y: -5 
-  }
-}
+export const NUMBER_OF_POINTS = 10
+export const CANVAS_HEIGHT = 500
+export const CANVAS_WIDTH = 500
+export const SECURE_BORDER = 20
+export const ORIGIN_DOT_COLOR = 'blue'
+export const ORIGIN_DOT_SIZE = 3
+export const POLY_DOT_COLOR = 'red'
+export const POLY_DOT_SIZE = 5
+export const LEGEND_POSITION_X = 5 
+export const LEGEND_POSITION_Y = 5

@@ -1,5 +1,6 @@
 import { 
-    LEGEND_POSITION, 
+    LEGEND_POSITION_X,
+    LEGEND_POSITION_Y, 
     ORIGIN_DOT_COLOR, 
     ORIGIN_DOT_SIZE, 
     POLY_DOT_COLOR, 
@@ -33,8 +34,8 @@ export default class Canvas {
 
             this.ctx.fillText(
                 dot.i, 
-                dot.x + LEGEND_POSITION.x, 
-                dot.y + LEGEND_POSITION.y
+                dot.x + LEGEND_POSITION_X, 
+                dot.y - LEGEND_POSITION_Y
             );
         }
     }
