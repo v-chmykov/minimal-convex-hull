@@ -1,0 +1,14 @@
+export default {
+  NUMBER_OF_POINT: 10,
+  CANVAS_HEIGHT: 500,
+  CANVAS_WIDTH: 500,
+  SECURE_BORDER: 20,
+  ORIGIN_DOT_COLOR: 'blue',
+  ORIGIN_DOT_SIZE: 3,
+  POLY_DOT_COLOR: 'red',
+  POLY_DOT_SIZE: 5,
+  LEGEND_POSITION: { 
+    x: 5, 
+    y: -5 
+  }
+}

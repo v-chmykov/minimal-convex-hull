@@ -1,4 +1,8 @@
-import { CANVAS_HEIGHT, CANVAS_WIDTH, SECURE_BORDER } from './vars';
+import { 
+    CANVAS_HEIGHT, 
+    CANVAS_WIDTH, 
+    SECURE_BORDER 
+} from './constants';
 
 const randomNumber = (max) => {
     return Math.floor(Math.random() * (max - SECURE_BORDER * 2 + 1)) + SECURE_BORDER;
@@ -25,7 +29,7 @@ export default class Dots {
         return arr;
     }
 
-    cloneAndSort (dots) {
+    sortByXCoord (dots) {
         let d = dots.slice();
         d.sort(compareByXCoord);
 

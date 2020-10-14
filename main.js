@@ -1,17 +1,17 @@
-import { NUMBER_OF_POINT } from './src/vars';
-import Canvas from './src/Canvas';
-import Dots from './src/Dots';
-import JarvisAlgo from './src/JarvisAlgo';
+import { NUMBER_OF_POINT } from './src/constants';
+import Canvas from './src/canvas';
+import Dots from './src/dots';
+import JarvisAlgo from './src/algo';
 
 const el = document.getElementById('cnvs');
 const canvas = new Canvas(el);
 const dots = new Dots();
 
-const origin = dots.random(NUMBER_OF_POINT);
-let sorted = dots.cloneAndSort(origin);
+const randomDots = dots.random(NUMBER_OF_POINT);
+let sortedByX = dots.sortByXCoord(randomDots);
 
 canvas.clearCanvas();
-canvas.drawDots(origin);
+canvas.drawDots(randomDots);
 
-const dotsForPoly = JarvisAlgo.run(sorted);
-canvas.drawPoly(dotsForPoly);
+const polygon = JarvisAlgo.run(sortedByX);
+canvas.drawPoly(polygon);

@@ -1,4 +1,4 @@
-import Dots from './Dots';
+import Dots from './dots';
 
 export default class JarvisAlgo {
     static run (dots) {
