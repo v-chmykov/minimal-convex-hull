@@ -1,14 +1,15 @@
 {
   "name": "minimal-convex-hull",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple app to find a minimal convex hull",
   "main": "index.html",
+  "homepage": "https://minimal-convex-hull.vercel.app/",
   "scripts": {
     "dev": "./node_modules/parcel-bundler/bin/cli.js index.html",
     "build": "./node_modules/parcel-bundler/bin/cli.js build index.html"
   },
   "keywords": [],
-  "author": "Vladimir Chmykov",
+  "author": "Vladimir Chmykov vov.chm@ya.ru",
   "license": "ISC",
   "devDependencies": {
     "node-forge": ">=0.10.0",
