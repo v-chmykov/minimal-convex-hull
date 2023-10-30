@@ -1,4 +1,4 @@
-# Minimal Convex Hull ([demo](https://minimal-convex-hull.vercel.app/))
+# Minimal Convex Hull
 
 ## Implementation:
 
