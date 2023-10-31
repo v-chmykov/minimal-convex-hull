@@ -1,4 +1,4 @@
-export const NUMBER_OF_POINTS = 10
+export const NUMBER_OF_POINTS = 20
 export const CANVAS_HEIGHT = 500
 export const CANVAS_WIDTH = 500
 export const SECURE_BORDER = 20
